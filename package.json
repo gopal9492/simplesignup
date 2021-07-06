@@ -1,0 +1,24 @@
+{
+  "name": "simplesignup",
+  "version": "1.0.0",
+  "description": "signup and signin with apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopal9492/simplesignup.git"
+  },
+  "author": "gopal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopal9492/simplesignup/issues"
+  },
+  "homepage": "https://github.com/gopal9492/simplesignup#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+  }
+}
