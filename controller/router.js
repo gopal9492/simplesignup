@@ -13,7 +13,7 @@ route.post('/signup',async (req,res)=>{
     const deviceid=req.body.deviceid || " ";
     const appid=req.body.appid || " "
  
-        const data=await user.findOne({ email:email }).then(user => {
+        await user.findOne({ email:email }).then(user => {
             if (user){
                 res.send("the user is already exist")
                 return res.status(400).json(errors);
